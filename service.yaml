@@ -5,7 +5,7 @@ metadata:
 spec:
   ports:
     - port: 8080
-      targetPort: 80
+      targetPort: 8009
   selector:
     app: codefresh-guestbook # must be the same as the selector defined in rollouts.yaml
   type: LoadBalancer
