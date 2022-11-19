@@ -14,7 +14,7 @@ spec:
         app: codefresh-guestbook
     spec:
       containers:
-        - image: gcr.io/heptio-images/ks-guestbook-demo:0.1
+        - image: us-central1-docker.pkg.dev/mchirico/public/goecho:2022-11-18_20-55-07.985_DST@sha256:0a72e7fef5950f49e5b74eafe16912d542f9b29b6b443c413e06d3e9baebd36e
           name: codefresh-guestbook
           ports:
             - name: http
